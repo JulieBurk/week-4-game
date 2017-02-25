@@ -1,0 +1,56 @@
+<DOCTYPE html>
+<!-- Key - "generate" means defines a function-->
+
+<html lang="en">
+<head>
+<!--Bootstrap link-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--link to css file and css reset file goes here-->
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+<title>Its a game</title>
+</head>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<body>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+
+<p> Use the crystals to add up #s equal to the random below</p>
+
+<!--Overall bootstrap grid-->
+<div class="btn-group">
+
+<button onclick="buttonOne()"><img src="assets/images/blue.png"></button>
+<button onclick="buttonTwo()"><img src="assets/images/yellow.png"></button>
+<button onclick="buttonThree()"><img src="assets/images/green.png"></button>
+<button onclick="buttonFour()"><img src="assets/images/red.png"></button>
+</div>
+
+<br><br>
+<p id="totalScore"></p>
+
+<br><br>
+<p>The machine #.</p>
+
+
+<p id="targetScore"></p>
+
+<br><br>
+<p id="wins"></p>
+<p id="losses"></p>
+</p>
+</div>
+</div>
+</div>
+
+<!--jQuery file-->
+
+<!--link to js file goes here-->
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
